@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.head {
+    display: flex;
+    flex: wrap;
+    background-color: rgb(235, 235, 235);
+}
+
+
+.service {
+    font-size: 25px;
+    padding: 14px 12px;
+    color: rgb(0, 0, 0);
+}
+.service a{
+    color: rgb(96, 80, 247);
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: monospace;
+    padding: 5px;
+}
+.service a:hover {
+    color: white;
+}
+
+.imged {
+    border-radius: 2px;
+    height: 700px;
+    width: 1200px;
+}
+
+.imges {
+    border-radius: 50%;
+    border-style: groove;
+}
+
+.Home {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.mid-content {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: sans-serif;
+    background-image: linear-gradient(white, rgb(82, 50, 199));
+}
+
+.box {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(114, 116, 245);
+}
+.box2 {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(114, 116, 245)
+}
+.box3 {
+    height: 40px;
+    width: 170px;
+    background-color: rgb(114, 116, 245)
+}
+
+.box-text {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: fantasy;
+    text-align: center;
+    color:rgb(114, 116, 245);
+}
+
+.header-prod {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-family: monospace;
+}
+
+.products {
+    background-color: rgb(221, 221, 221);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn:active {
+    background-color: #666;
+    color: white;
+}
+
+.testmon {
+    background-color: rgb(196, 185, 255);
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+}
+.testmon2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: serif;
+    text-shadow: 1px black;
+}
+
+.Landing-page{
+    display: flex;
+   padding: 14px 12px;
+   justify-content: space-between;
+   background-color: rgb(27, 27, 27);
+}
+.pp {
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.landing a{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: rgb(127, 127, 151);
+    animation-name: price;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes price {
+    0% {color: rgb(127, 127, 151)}
+    20% {color: rgb(150, 122, 253);}
+    50% {color:rgb(82, 50, 199)}
+    100% {color: rgb(98, 98, 236);}
+}
