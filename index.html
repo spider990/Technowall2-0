@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tech.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Technowall</title>
+</head>
+<body>
+    <div class="container">
+      <header class="head">
+          <p class="service">Services</p>
+        <div class="service">
+            <a href="https://t.me/Hi4AM_Nabil">Telegram</a>
+            <a href="https://wa.me/qr/J252D246KYSLB1">Whatsapp</a>
+        </div>
+      </header>
+
+      <div class="preview">
+          <img class="imged" src="/New folder (3)/Untitled-1.jpg" height="700px" width="1000px">
+          <img class="imges" src="/New folder (3)/Hesham2.jpg" >
+      </div>
+
+
+      <section>
+          <div class="mid-content">
+            <p>This page is where you can find all about technology accessories</p>
+          </div>
+
+          <div class="box">
+              <p class="box-text">Just</p>
+          </div>
+          <div class="box2">
+              <p class="box-text">Smile</p>
+          </div>
+          <div class="box3">
+              <p class="box-text">It's the free therapy</p>
+          </div>
+
+          <div class="header-prod">
+          <h1>Our products</h1>
+          </div>
+
+          <div class="headers" id="myHeade"></div>
+            <p id="ppo">Click on the buttons to change the view which will be updated daily with new products</p>
+            <button class="btn" onclick="one()">1</button>
+            <button class="btn active" onclick="four()">4</button>
+            <button class="btn" onclick="two()">2</button>
+          </div>
+
+
+          <div class="products">
+              <div class="column">
+                  <img src="/New folder (4)/Kingston 2.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/DT50 16Gb.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/Kingston 64.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/Kingston 8GB.jpg" style="width: 100%;">
+              </div>
+              <div class="column">
+                  <img src="/New folder (4)/HIKvision.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/WD purple.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/WD 1TB 1.jpg"  style="width: 100%;">
+                  <img src="/New folder (4)/HIKvision 2.jpg" style="width: 100%;">
+              </div>
+              <div class="column">
+                  <img src="/New folder (4)/WD 2TB.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/Kingston NVMe.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/WD purple.jpg" style="width: 100%;">
+                  <img src="/New folder (4)/WD 4TB.jpg"  style="width: 100%;">
+              </div>
+          </div>
+      </section>
+ 
+
+
+      <footer class="testmon">
+          <div class="testmon2">
+              <h2>Worked with +50 Multinational company</h2>
+              <h2>More than 1000 happy clients</h2>
+          </div>
+      </footer>
+
+
+      <div class="Landing-page">
+          <p><i class="fa fa-chrome" style="font-size: 30px; color: white;"></i></p>
+          <p><i class="fa fa-whatsapp" style="font-size: 30px; color: white;"></i></p>
+          <p><i class="fa fa-telegram" style="font-size: 30px; color: white;"></i></p>
+          <p><i class="fa fa-windows" style="font-size: 30px; color: white;"></i></p>
+          <p class="pp">we have sources all over famous platforms</p>
+
+          <p class="landing"><a href="https://spider990.github.io/TechnoWall/">Go to our products pricing</a></p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+<script>
+var elements = document.getElementsByClassName("column");
+var i;
+function one() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "100%"; 
+        elements[i].style.flex = "100%";
+    }
+}
+
+function two() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "50%";;
+        elements[i].style.flex = "50%";
+    }
+}
+
+function four() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "25%";
+        elements[i].style.flex = "25%";
+    }
+}
+
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<script src="anime.min.js"></script>
+<script type="text/javascript" src="techscript.js"></script>
+</html>
