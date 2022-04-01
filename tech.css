@@ -32,11 +32,13 @@
     color: white;
 }
 
-.imged {
-    border-radius: 2px;
-    height: 700px;
-    width: 800px;
+.pre {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://wallpaperaccess.com/full/516089.png");
 }
+
+
 
 .imges {
     border-radius: 50%;
