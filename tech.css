@@ -171,3 +171,9 @@
     50% {color:rgb(82, 50, 199)}
     100% {color: rgb(98, 98, 236);}
 }
+
+#ppo {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: monospace;
+}
