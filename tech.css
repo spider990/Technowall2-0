@@ -35,7 +35,7 @@
 .imged {
     border-radius: 2px;
     height: 700px;
-    width: 1200px;
+    width: 800px;
 }
 
 .imges {
@@ -51,7 +51,7 @@
 .mid-content {
     color: white;
     text-shadow: 2px 2px 2px black;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 800;
     font-family: sans-serif;
     background-image: linear-gradient(white, rgb(82, 50, 199));
@@ -118,37 +118,37 @@
 
     border: none;
     outline: none;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     padding: 10px 16px;
     background-color: rgb(68, 255, 109);
     border-radius: 10px;
     cursor: pointer;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .btn2 {
     border: none;
     outline: none;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     padding: 10px 16px;
     background-color: rgb(68, 255, 109);
     border-radius: 10px;
     cursor: pointer;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .btn3 {
     border: none;
     outline: none;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     padding: 10px 16px;
     background-color: rgb(68, 255, 109);
     border-radius: 10px;
     cursor: pointer;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 
