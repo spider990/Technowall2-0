@@ -65,8 +65,8 @@ const mouseOutAnimation1 = function() {
     })
 }
 
-button2.addEventListener('mouseover', mouseHoverAnimation1)
-button2.addEventListener('mouseout', mouseOutAnimation1)
+button2.addEventListener('mouseover', mouseHoverAnimation1);
+button2.addEventListener('mouseout', mouseOutAnimation1);
 
 const button3 = document.querySelector('.btn3');
 
@@ -84,5 +84,5 @@ const mouseOutAnimation2 = function() {
     })
 }
 
-button3.addEventListener('mouseover', mouseHoverAnimation2)
-button3.addEventListener('mouseout', mouseOutAnimation2)
+button3.addEventListener('mouseover', mouseHoverAnimation2);
+button3.addEventListener('mouseout', mouseOutAnimation2);
