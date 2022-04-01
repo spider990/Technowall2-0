@@ -35,7 +35,7 @@
 .imged {
     border-radius: 2px;
     height: 700px;
-    width:  900px;
+    width: 1200px;
 }
 
 .imges {
@@ -111,20 +111,74 @@
     vertical-align: middle;
 }
 
+
+
+
 .btn {
+
     border: none;
     outline: none;
+    height: 70px;
+    width: 70px;
     padding: 10px 16px;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(68, 255, 109);
     border-radius: 10px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 27px;
 }
+
+.btn2 {
+    border: none;
+    outline: none;
+    height: 70px;
+    width: 70px;
+    padding: 10px 16px;
+    background-color: rgb(68, 255, 109);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.btn3 {
+    border: none;
+    outline: none;
+    height: 70px;
+    width: 70px;
+    padding: 10px 16px;
+    background-color: rgb(68, 255, 109);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 27px;
+}
+
+
+
+
 .btn:hover {
-    background-color: #ddd;
+    background-color: rgb(179, 243, 193);
 }
 
 .btn:active {
+    background-color: #666;
+    color: white;
+}
+
+
+.btn3:hover {
+    background-color: rgb(179, 243, 193);
+}
+
+.btn3:active {
+    background-color: #666;
+    color: white;
+}
+
+
+.btn2:hover {
+    background-color: rgb(179, 243, 193);
+}
+
+.btn2:active {
     background-color: #666;
     color: white;
 }
@@ -173,7 +227,7 @@
 }
 
 #ppo {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 800;
     font-family: monospace;
 }
